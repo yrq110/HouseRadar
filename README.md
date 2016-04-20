@@ -22,13 +22,13 @@ An app for searching apartment to rent.
 >[Reachability](https://developer.apple.com/library/ios/samplecode/Reachability/Listings/Reachability_Reachability_m.html)
 
 ##Do
-###Search House
+###ApartmentSearch
 * Radar_Search
 * Exact_Search
 * List_View
 
-###Collect and Compare
+###Collect&Compare
 
-###LoadImageControl
+###ImageLoadingControl
 
 ###NightMode
