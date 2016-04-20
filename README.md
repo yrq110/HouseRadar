@@ -26,6 +26,9 @@ An app for searching apartment to rent.
 * Radar_Search
 * Exact_Search
 * List_View
+
 ###Collect and Compare
+
 ###LoadImageControl
+
 ###NightMode
