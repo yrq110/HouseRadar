@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="CompareEntity" representedClassName="CompareEntity" syncable="YES">
+        <attribute name="house_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pic_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xiaoqu" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HouseEntity" representedClassName="HouseEntity" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="broker_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="broker_tel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="config" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="house_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="house_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pic_urls" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publish_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xiaoqu" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CompareEntity" positionX="-63" positionY="72" width="128" height="105"/>
+        <element name="HouseEntity" positionX="-63" positionY="-18" width="128" height="225"/>
+    </elements>
+</model>
