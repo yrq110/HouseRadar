@@ -517,7 +517,7 @@ int poiCount;
     rsOn =YES;
     [_mapTypeBtn setEnabled:NO];
     [_rsProgress setProgress:0 Animated:NO];
-//    [self.view addSubview:_rsProgress];
+    [self.view addSubview:_rsProgress];
     
 //    _timer = [NSTimer scheduledTimerWithTimeInterval:8 target:self selector:@selector(progressZeroTimer:) userInfo:nil repeats:YES];
 //    [_timer fire];
@@ -1274,6 +1274,9 @@ int esLocationNo;
             float prog = (double)SearchDownNo/(double)poiArrayCount;
             progressForeRatio = progressLaterRatio;
             progressLaterRatio = prog;
+            if (prog > 0.95) {
+                prog = 1;
+            }
             [_rsProgress setProgress:prog Animated:NO];
             
             if (prog == 1) {
