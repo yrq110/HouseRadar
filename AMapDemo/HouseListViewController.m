@@ -40,9 +40,9 @@ int i = 1;
     // Do any additional setup after loading the view.
     
     if ([PicLoadEnableSharedClass newInstance].isNightMode == NO) {
-        NSLog(@"not nightmode");
+//        NSLog(@"not nightmode");
     }else{
-        NSLog(@"is nightmode");
+//        NSLog(@"is nightmode");
     }
     
     [self dataInit];
@@ -277,7 +277,7 @@ int SearchTimes;
 {
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
-    NSString *str = @"http://127.0.0.1:5000/list/?count=";
+    NSString *str = @"https://house-radar-server.herokuapp.com/list/?count=";
     int a = 10;
     NSString *s = [str stringByAppendingString:[NSString stringWithFormat:@"%d",a]];
     NSString *b = [@"&times=" stringByAppendingString:[NSString stringWithFormat:@"%d",SearchTimes]];

@@ -314,6 +314,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 8;
+//    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -380,6 +381,7 @@
             [cell addSubview:_appDetailBtn];
             break;
         case 7:
+//            break;
             [self staffInit];
             [cell addSubview:_staffLabel];
             [cell addSubview:_staffBtn];

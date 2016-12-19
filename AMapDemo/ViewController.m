@@ -524,7 +524,7 @@ int poiCount;
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
-    NSString *str = @"http://127.0.0.1:5000/list/?count=";
+    NSString *str = @"https://house-radar-server.herokuapp.com/list/?count=";
     int a = poiArrayCount;
     NSString *s = [str stringByAppendingString:[NSString stringWithFormat:@"%d",a]];
     NSString *b = [@"&times=" stringByAppendingString:[NSString stringWithFormat:@"%d",SearchTimes]];
@@ -622,7 +622,7 @@ int poiEsCount;
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
-    NSString *str = @"http://127.0.0.1:5000/hello/";
+    NSString *str = @"https://house-radar-server.herokuapp.com/hello/";
     
     NSString *price = [@"?price=" stringByAppendingString:_esView.priceTF.text];
     

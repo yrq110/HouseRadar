@@ -17,7 +17,7 @@
         
         [self setBackgroundColor:[UIColor clearColor]];
         _segmentArray = [[NSMutableArray alloc]init];
-        _array = [NSArray arrayWithObjects:@"地图",@"收藏",@"其他",@"设置",nil];
+        _array = [NSArray arrayWithObjects:@"地图",@"收藏",@"对比",@"设置",nil];
         float width = frame.size.width/_array.count;
         
         for (int i = 0; i<[_array count]; i++) {
@@ -27,10 +27,10 @@
             [btn addTarget:self action:@selector(clickSegment:) forControlEvents:UIControlEventTouchUpInside];
 //            [btn setBackgroundColor:[UIColor orangeColor]];
             if ([PicLoadEnableSharedClass newInstance].isNightMode == NO) {
-                NSLog(@"not nightmode");
+//                NSLog(@"not nightmode");
                 [btn setBackgroundColor:[UIColor colorWithRed:0/255.0 green:191.0/255.0 blue:255.0/255.0 alpha:1.0]];
             }else{
-                NSLog(@"is nightmode");
+//                NSLog(@"is nightmode");
                 [btn setBackgroundColor:[UIColor colorWithRed:25.0/255.0 green:25.0/255.0 blue:112.0/255.0 alpha:1.0]];
             }
             
