@@ -8,27 +8,13 @@
 * Objective-C
 
 ## 功能
-* 搜索
-  * **雷达搜索**-设定中心点与半径，搜索范围内的房源
-  
-  ![](http://obilz4jlp.bkt.clouddn.com/radar-2.png)
-  
-  * **条件搜索**-设定详细信息进行精确搜索
-  
-  ![](http://obilz4jlp.bkt.clouddn.com/radar-3.png)
-  
-  * **房源列表**-查看数据库中的房源
-  
-  ![](http://obilz4jlp.bkt.clouddn.com/radar-1.png)
-* 收藏
+* **雷达搜索**-设定中心点与半径，搜索范围内的房源
+* **条件搜索**-设定详细信息进行精确搜索
+* **房源列表**-查看数据库中的房源
+* **收藏**-收藏列表
+* **对比**-对比列表
+* **设置**-加载图片、夜间模式、清空收藏夹
 
-![](http://obilz4jlp.bkt.clouddn.com/radar-4.png)
-
-* 对比
-
-![](http://obilz4jlp.bkt.clouddn.com/radar-5.png)  
-* 设置
-  
 > 视图布局用的是手写代码的方式，用屏幕百分比的方案进行的适配，效果不太好，仅测试了iPhone的部分屏幕尺寸。
 
 ## 第三方库
@@ -52,3 +38,11 @@
 做出来的跟最初的想法不太一致，写出来后发现一点都不cool，全当练习了，不打算维护，整理一下文档开源分享下。
 
 感谢dixxxy所做的logo与启动界面，感谢Yepoch的规划。
+
+## App截图
+
+![](http://obilz4jlp.bkt.clouddn.com/radar-2.png)
+![](http://obilz4jlp.bkt.clouddn.com/radar-3.png)
+![](http://obilz4jlp.bkt.clouddn.com/radar-1.png)
+![](http://obilz4jlp.bkt.clouddn.com/radar-4.png)
+![](http://obilz4jlp.bkt.clouddn.com/radar-5.png)  
